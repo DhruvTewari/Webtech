@@ -1,0 +1,229 @@
+/*
+ALL THE NEW FEATURES LEARNED HAS BEEN COMMMENTED BELOW  (5 CSS)
+ */
+
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+nav{
+    position: absolute;
+    background-color: #0a0a29;
+    opacity: 0.8;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+
+}
+.second{
+    position: absolute;
+    background-color: rgb(19, 13, 8);
+    opacity: 0.8;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: rgb(245, 237, 237);
+    padding-right: 200px;
+    padding-left: 200px;
+    text-decoration: none;
+    padding-top: 0;
+    padding-bottom: 0;
+        
+}
+
+/* Feature learned except from classroom */
+.left:hover{ 
+    color: rgb(238, 218, 108);
+    
+}
+.right:hover{
+    color: rgb(238, 218, 108);
+}
+
+/* Feature learned except from classroom */
+ol li{
+    display: inline;
+    list-style-type:none;
+    justify-content: center;
+}
+
+ol{
+    text-align: center;
+}
+
+
+#logo{
+    width: 100px;
+    height: 75px;
+    
+}
+#HP{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.up{
+    padding-top: 200px;
+}
+
+#image{
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    
+    opacity: 0.8;
+    /* Feature learned except from classroom */
+    z-index: -1; 
+}
+
+#harryImage{
+    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.center{
+    
+    color: rgb(31, 28, 28);
+    background-color: rgba(193, 255, 198, 0.2);
+
+}
+.top{
+    padding-top: 40px;
+}
+
+.center , .para{
+    opacity: 1;
+    /* Feature learned except from classroom */
+    display: flex; 
+    justify-content: center;
+
+}
+
+.para{
+    background-color: rgba(6, 4, 24, 0.34);
+    color: white;
+    position: absolute;
+    
+}
+.para1{
+    background-color: rgba(6, 4, 24, 0.34);
+   
+    text-align: center;
+    margin: 0;
+    margin-top: 660px;
+    padding-top: 20px;
+}
+
+.para1, .para{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#strongtext{
+    text-align: left;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+#lessonstext{
+    text-align: center;
+
+}
+
+
+.houses{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.colored{
+    background-color: rgba(29, 17, 8, 0.85);
+    padding: 10px;
+    margin-top: 330px;
+    color: white;
+    
+}
+#house{
+    height: 200px;
+}
+.centerhouse{
+    text-align: center;
+}
+
+.content{
+    height: 400px;
+    width: 260px;
+    float: right;
+    background-color: rgba(6, 4, 24, 0.34);
+    margin: 30px 80px;
+    padding: 40px;
+    color: white;
+    /* Feature learned except from classroom */
+    line-height: 1.3;
+}
+
+ul li{
+    line-height: 1.15;
+}
+
+
+th,tr{
+    padding: 50px;
+    border-color: black;
+    
+}
+td{
+    
+    text-align: center;
+    
+    color: whitesmoke;
+}
+
+table, th, td{
+    font-size: large;
+    border-bottom: 2px solid rgb(41, 41, 41);
+    
+    border-collapse: collapse;
+}
+th{
+    font-size: 24px;
+}
+
+.backcolor{
+
+    background-color: rgb(64, 57, 82,0.8);
+    color: white;
+    padding: 10px;
+}
+
+.houseimages{
+    width: 200px;
+    height: 200px;
+    opacity: 0.6;
+}
+.houseimages:hover{
+    opacity: 1;
+}
+
+.level{
+    height: 100px;
+}

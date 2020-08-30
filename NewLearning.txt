@@ -1,0 +1,16 @@
+/*
+ALL THE NEW FEATURES LEARNED HAS BEEN COMMMENTED BELOW  (5 CSS) (2 HTML)
+ */
+
+ I] html learnings in secondpage.html on 
+
+ 1) line 17
+ 2) line 48
+
+ II] css learning in style.css on
+
+1) line 41
+2) line 50
+3) line 86
+4) line 113
+5) line 181
