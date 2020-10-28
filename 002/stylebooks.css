@@ -1,0 +1,170 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #131313;
+
+}
+
+.main-screen{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#box{
+    overflow: hidden;
+}
+
+#container{
+    
+    width: 100%;
+    position: absolute;
+    /* top: -100%; */
+    /* animation: anim4 0.5s forwards 0.2s; */
+    background-color: #c14953;
+    
+}
+
+#logo{
+    float: left;
+    margin-left: 100px;
+    top: 10px;
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+
+#menu{
+    position: relative;
+    font-family: 'Bahnchrift Condensed';
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    margin-right: 150px;
+    margin-top: 20px;
+    float: right;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover {
+    color: rgb(63, 40, 40);
+    font-weight: 400;
+}
+
+.main-info{
+    display: inline-block;
+    margin-top: 80px;
+    padding: 30px;
+    width: 100%;
+}
+
+.main-info h1{
+    position: sticky;
+    top: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(11, 79, 108,0.8);
+    width: 350px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 60px;
+    color: white;
+}
+
+.size-sim{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.card{
+    display: inline-block;
+    position: sticky;
+    top: 48%;
+    width: 250px;
+    height: 350px;
+    background: #3a3131;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover::before{
+    clip-path: circle(300px at 80% -20%);
+    
+}
+
+.card::after{
+    content: 'Books';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 8em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(255, 255, 255, 0.05);
+    z-index: -1;
+    top: 0%;
+    clip-path: circle(300px at 80% -20%);
+   
+}
+
+.card:hover .img-box{
+    
+    position: absolute;
+    transform: translateY(68%);
+    z-index: 2000;
+    transition: 0.7s;
+
+}
+
+p,h2{
+    padding-left: 20px;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+
+.btn{
+    top: 10%;
+    width: 100%;
+    background: none;
+    padding: 5px;
+    border: 2px solid #454545;
+    border-radius: 20px;
+    color: rgb(236, 230, 230) ;
+    cursor: pointer;
+    margin: 5px 0;
+    font-size: 20px;
+    background-color: rgb(76, 150, 153);
+}
